@@ -12,7 +12,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Test\\": "tests/"
+            "Test\\": "tests/",
+            "Code\\": "code/"
         }
     }
 }

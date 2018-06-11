@@ -10,8 +10,14 @@
          stopOnFailure="false">
 
     <testsuites>
-        <testsuite name="Demo1">
+        <testsuite name="demo1">
             <directory suffix="Test.php">./tests/Demo1</directory>
+        </testsuite>
+        <testsuite name="sumfinder">
+            <directory suffix="Test.php">./tests/SumFinder</directory>
+        </testsuite>
+        <testsuite name="sumfinderclass">
+            <directory suffix="Test.php">./tests/SumFinderClass</directory>
         </testsuite>
     </testsuites>
 
