@@ -13,11 +13,11 @@
         <testsuite name="demo1">
             <directory suffix="Test.php">./tests/Demo1</directory>
         </testsuite>
-        <testsuite name="sumfinder">
-            <directory suffix="Test.php">./tests/SumFinder</directory>
+        <testsuite name="demo2">
+            <directory suffix="Test.php">./tests/Demo2</directory>
         </testsuite>
-        <testsuite name="sumfinderclass">
-            <directory suffix="Test.php">./tests/SumFinderClass</directory>
+        <testsuite name="demo3class">
+            <directory suffix="Test.php">./tests/Demo3</directory>
         </testsuite>
     </testsuites>
 

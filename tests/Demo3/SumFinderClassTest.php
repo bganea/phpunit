@@ -6,7 +6,7 @@
  * Time: 17:27
  */
 
-namespace Test\SumFinderClass;
+namespace Test\Demo3;
 
 use PHPUnit\Framework\TestCase as BaseTest;
 use Code\SumFinderClass;
@@ -19,10 +19,12 @@ class SumFinderClassTest extends BaseTest{
 		$sumFinder = new SumFinderClass($input);
 		$this->assertEquals($result, $sumFinder->findSum());
 	}
+
 	public function testCompareArrays()
 	{
 		$array1 = array(0,1,2,3);
 		$array2 = array(6,7,8,9);
+
 		$sumFinder = new SumFinderClass();
 		// $array2 > $array1
 		$this->assertEquals(-1,
