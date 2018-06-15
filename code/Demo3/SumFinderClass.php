@@ -6,7 +6,7 @@
  * Time: 17:21
  */
 
-namespace Code;
+namespace Code\Demo3;
 
 
 class SumFinderClass {

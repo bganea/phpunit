@@ -16,8 +16,14 @@
         <testsuite name="demo2">
             <directory suffix="Test.php">./tests/Demo2</directory>
         </testsuite>
-        <testsuite name="demo3class">
+        <testsuite name="demo3">
             <directory suffix="Test.php">./tests/Demo3</directory>
+        </testsuite>
+        <testsuite name="demo4">
+            <directory suffix="Test.php">./tests/Demo4</directory>
+        </testsuite>
+        <testsuite name="demo5">
+            <directory suffix="Test.php">./tests/Demo5</directory>
         </testsuite>
     </testsuites>
 

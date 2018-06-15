@@ -9,7 +9,7 @@
 namespace Test\Demo3;
 
 use PHPUnit\Framework\TestCase as BaseTest;
-use Code\SumFinderClass;
+use Code\Demo3\SumFinderClass;
 
 class SumFinderClassTest extends BaseTest{
 	public function testFindSum()
